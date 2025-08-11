@@ -2,6 +2,7 @@
 
 ## I'm beginner QA-engineer and Programmer
 
-Languages and Tools
+## Languages and Tools
+[![SQL Server Status](https://img.shields.io/badge/SQL%20Server-Подключено-green)]
 
 Follow Me
