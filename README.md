@@ -3,6 +3,6 @@
 ## I'm beginner QA-engineer and Programmer
 
 ## Languages and Tools
-[![SQL Server Status](https://img.shields.io/badge/SQL%20Server-Подключено-green)]
+[![SQL](https://img.shields.io/badge/SQL-808080)]
 
 Follow Me
