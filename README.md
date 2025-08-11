@@ -1,4 +1,4 @@
-![Header](https://github.com/dihlofoz/dihlofoz/blob/main/assets/github%20gif.gif)
+![Header](https://github.com/dihlofoz/dihlofoz/blob/main/assets/github.gif)
 
 About me
 
