@@ -9,4 +9,4 @@
 ![Python](https://img.shields.io/badge/Python-3.11-3776AB?style=for-the-badge&logo=python&logoColor=FFD43B)
 
 ### Follow Me
-![![LeetCode](https://img.shields.io/badge/LeetCode-36454F?style=for-the-badge&logo=leetcode&logoColor=FFA116)](https://leetcode.com/u/dihlofoz/)
+[![LeetCode](https://img.shields.io/badge/LeetCode-36454F?style=for-the-badge&logo=leetcode&logoColor=FFA116)](https://leetcode.com/u/dihlofoz/)
