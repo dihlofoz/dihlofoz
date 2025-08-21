@@ -1,0 +1,125 @@
+{
+	"info": {
+		"_postman_id": "2d8ca1f6-4db0-4c32-883f-32016c3313e8",
+		"name": "New Collection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "46360579",
+		"_collection_link": "https://artyomsobolev.postman.co/workspace/Artyom-Sobolev's-Workspace~6ad3b917-9b3e-4940-8d07-fb46b7877df8/collection/46360579-2d8ca1f6-4db0-4c32-883f-32016c3313e8?action=share&source=collection_link&creator=46360579"
+	},
+	"item": [
+		{
+			"name": "New Request",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"const json = pm.response.json();\r",
+							"if (json.id) {\r",
+							"    pm.environment.set(\"petId\", json.id);\r",
+							"    console.log(\"Pet ID saved:\", json.id);\r",
+							"} else {\r",
+							"    console.error(\"ID not found in response\");\r",
+							"}"
+						],
+						"type": "text/javascript",
+						"packages": {}
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"id\": 131,\r\n  \"category\": {\r\n    \"id\": 2,\r\n    \"name\": \"string\"\r\n  },\r\n  \"name\": \"Dusik-cat\",\r\n  \"photoUrls\": [\r\n    \"https://storage.yandexcloud.net/moskvichmag/uploads/2024/08/shutterstock_2386006989.jpg\"\r\n  ],\r\n  \"tags\": [\r\n    {\r\n      \"id\": 2,\r\n      \"name\": \"string\"\r\n    }\r\n  ],\r\n  \"status\": \"available\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://petstore.swagger.io/v2/pet",
+					"protocol": "https",
+					"host": [
+						"petstore",
+						"swagger",
+						"io"
+					],
+					"path": [
+						"v2",
+						"pet"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "New Request",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"const pet = pm.response.json();\r",
+							"\r",
+							"// Меняем статус\r",
+							"pet.status = \"sold\";\r",
+							"\r",
+							"// Отправляем PUT-запрос\r",
+							"pm.sendRequest({\r",
+							"    url: \"https://petstore.swagger.io/v2/pet\",\r",
+							"    method: \"PUT\",\r",
+							"    header: {\r",
+							"        \"Content-Type\": \"application/json\"\r",
+							"    },\r",
+							"    body: {\r",
+							"        mode: \"raw\",\r",
+							"        raw: JSON.stringify(pet)\r",
+							"    }\r",
+							"}, function (err, res) {\r",
+							"    if (err) {\r",
+							"        console.error(\"Ошибка при обновлении:\", err);\r",
+							"    } else {\r",
+							"        console.log(\"Питомец обновлён:\", res.json());\r",
+							"    }\r",
+							"});"
+						],
+						"type": "text/javascript",
+						"packages": {}
+					}
+				},
+				{
+					"listen": "prerequest",
+					"script": {
+						"exec": [
+							""
+						],
+						"type": "text/javascript",
+						"packages": {}
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://petstore.swagger.io/v2/pet/{{petId}}",
+					"protocol": "https",
+					"host": [
+						"petstore",
+						"swagger",
+						"io"
+					],
+					"path": [
+						"v2",
+						"pet",
+						"{{petId}}"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
