@@ -3,11 +3,9 @@
 ## I'm beginner QA-engineer and Programmer
 
 ## Languages and Tools
-<<<<<<< HEAD
 ![SQL](https://img.shields.io/badge/SQL-808080?style=for-the-badge&logo=)
 
 Follow Me
-=======
 ![SQL](https://img.shields.io/badge/SQLite-a9a9a9?style=for-the-badge&logo=sqlite&logoColor=000000)
 ![HTML5](https://img.shields.io/badge/HTML5-ffc0cb?style=for-the-badge&logo=html5&logoColor=E34F26)
 ![CSS](https://img.shields.io/badge/CSS-663399?style=for-the-badge&logo=css&logoColor=white)
@@ -17,4 +15,3 @@ Follow Me
 
 ### Follow Me
 [![LeetCode](https://img.shields.io/badge/LeetCode-36454F?style=for-the-badge&logo=leetcode&logoColor=FFA116)](https://leetcode.com/u/dihlofoz/)
->>>>>>> 69a58af8c47f92d7b43931abd275f376983adef2
