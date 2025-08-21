@@ -1,0 +1,42 @@
+[
+    {
+        "birth_year": 1990,
+        "children": [
+            {
+                "birth_year": 2010,
+                "name": "Маша",
+                "relationship": "дочь"
+            },
+            {
+                "birth_year": 2020,
+                "name": "Коля",
+                "relationship": "сын"
+            }
+        ],
+        "id": 1,
+        "name": "Иванов Иван Иванович"
+    },
+    {
+        "birth_year": 1995,
+        "children": [
+            {
+                "birth_year": 2015,
+                "name": "Катя",
+                "relationship": "дочь"
+            },
+            {
+                "birth_year": 2020,
+                "name": "Настя",
+                "relationship": "дочь"
+            }
+        ],
+        "id": 2,
+        "name": "Смирнова Виктория"
+    },
+    {
+        "birth_year": 2000,
+        "children": [],
+        "id": 3,
+        "name": "Петров Петр Петрович"
+    }
+]
