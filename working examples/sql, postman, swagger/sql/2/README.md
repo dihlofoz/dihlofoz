@@ -10,3 +10,6 @@
     поэтому остальное было добавлено отдельными запросами.
 
 ![DockerScreen](https://github.com/dihlofoz/dihlofoz/blob/main/assets/assets%20sql%202/docker.jpg)
+![DatabaseInit](https://github.com/dihlofoz/dihlofoz/blob/main/assets/assets%20sql%202/database_init.jpg)
+![Database](https://github.com/dihlofoz/dihlofoz/blob/main/assets/assets%20sql%202/database.jpg)
+![Request](https://github.com/dihlofoz/dihlofoz/blob/main/assets/assets%20sql%202/request.jpg)
