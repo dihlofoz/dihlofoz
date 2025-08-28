@@ -2,6 +2,8 @@
 
 ## I'm beginner QA-engineer and Programmer
 
+###  Начинающий специалист в области тестирования ПО с базовым знанием Docker, Python, SQL, а также опытом работы с инструментами Jira и Postman. Освоил основы разработки контейнеризированных приложений, написания простых скриптов на Python и работы с реляционными базами данных. Умею ставить задачи в Jira и проводить первичное тестирование API через Postman. Имею начальные навыки работы с командной строкой Linux и системой контроля версий Git. Стремлюсь повышать квалификацию и активно изучать новые инструменты и методики, необходимые для качественного тестирования.
+
 ## Languages and Tools
 ![SQL](https://img.shields.io/badge/SQLite-a9a9a9?style=for-the-badge&logo=sqlite&logoColor=000000)
 ![HTML5](https://img.shields.io/badge/HTML5-ffc0cb?style=for-the-badge&logo=html5&logoColor=E34F26)
