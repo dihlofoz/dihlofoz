@@ -9,4 +9,4 @@
     P.S. Данные при выводе таблиц не совпадают, поскольку добавленных при инициализации оказалось мало, 
     поэтому остальное было добавлено отдельными запросами.
 
-    ![DockerScreen](https://github.com/dihlofoz/dihlofoz/blob/main/assets/assets%20sql%202/docker.jpg)
+![DockerScreen](https://github.com/dihlofoz/dihlofoz/blob/main/assets/assets%20sql%202/docker.jpg)
