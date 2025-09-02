@@ -12,6 +12,7 @@
 ![Postman](https://img.shields.io/badge/Postman-2c2c2c?style=for-the-badge&logo=postman&logoColor=FF6C37)
 ![Jira](https://img.shields.io/badge/Jira-white?style=for-the-badge&logo=jira&logoColor=0052CC)
 ![Docker](https://img.shields.io/badge/Docker-white?style=for-the-badge&logo=docker&logoColor=2496ED)
+![Selenium](https://img.shields.io/badge/Selenium-white?style=for-the-badge&logo=selenium&logoColor=43B02A)
 
 ### Follow Me
 [![LeetCode](https://img.shields.io/badge/LeetCode-36454F?style=for-the-badge&logo=leetcode&logoColor=FFA116)](https://leetcode.com/u/dihlofoz/)
