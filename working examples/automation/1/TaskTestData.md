@@ -1,9 +1,10 @@
+```markdown
 # Выполнение тестовой задачи взятой отсюда https://clck.ru/3NyX6V
 
 ## Ex №1
+```
 
 ```python
-
 import unittest
 
 class DiscountCalculatorPage:
@@ -51,11 +52,12 @@ class TestDiscountCalculation(unittest.TestCase):
     
 if __name__ == '__main__':
     unittest.main()
-
+```
+```markdown
 ## Ex №2
+```
 
 ```python
-
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from time import sleep
@@ -94,4 +96,5 @@ else:
     print(f"В поле 'Телефон' введены данные: {phone_field.get_attribute('value')}")
 
 # Закроем браузер
-browser.quit()```
+browser.quit()
+```
