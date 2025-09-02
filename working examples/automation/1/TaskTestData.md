@@ -2,55 +2,55 @@
 
 ## Ex №1
 
-    ```python
+```python
 
-    import unittest
+import unittest
 
-    class DiscountCalculatorPage:
-        def __init__(self):
-            pass
+class DiscountCalculatorPage:
+    def __init__(self):
+        pass
 
-        def calculate_discount(self, points):
-            if points <= 100:
-                return 1
-            elif points <= 200:
-                return 3
-            elif points <= 500:
-                return 5
-            else:
-                return 10
+    def calculate_discount(self, points):
+        if points <= 100:
+            return 1
+        elif points <= 200:
+            return 3
+        elif points <= 500:
+            return 5
+        else:
+            return 10
 
 
-    class TestDiscountCalculation(unittest.TestCase):
-        def setUp(self):
-            self.calculator = DiscountCalculatorPage()
+class TestDiscountCalculation(unittest.TestCase):
+    def setUp(self):
+        self.calculator = DiscountCalculatorPage()
     
-        def test_zero_points(self):
-            result = self.calculator.calculate_discount(0)
-            self.assertEqual(result, 1)
+    def test_zero_points(self):
+        result = self.calculator.calculate_discount(0)
+        self.assertEqual(result, 1)
     
-        def test_fifty_points(self):
-            result = self.calculator.calculate_discount(50)
-            self.assertEqual(result, 1)
+    def test_fifty_points(self):
+        result = self.calculator.calculate_discount(50)
+        self.assertEqual(result, 1)
     
-        def test_hundred_points(self):
-            result = self.calculator.calculate_discount(100)
-            self.assertEqual(result, 1)
+    def test_hundred_points(self):
+        result = self.calculator.calculate_discount(100)
+        self.assertEqual(result, 1)
     
-        def test_one_hundred_and_one_points(self):
-            result = self.calculator.calculate_discount(101)
-            self.assertEqual(result, 3)
+    def test_one_hundred_and_one_points(self):
+        result = self.calculator.calculate_discount(101)
+        self.assertEqual(result, 3)
     
-        def test_three_hundred_points(self):
-            result = self.calculator.calculate_discount(300)
-            self.assertEqual(result, 5)
+    def test_three_hundred_points(self):
+        result = self.calculator.calculate_discount(300)
+        self.assertEqual(result, 5)
     
-        def test_five_hundred_and_one_points(self):
-            result = self.calculator.calculate_discount(501)
-            self.assertEqual(result, 10)
+    def test_five_hundred_and_one_points(self):
+        result = self.calculator.calculate_discount(501)
+        self.assertEqual(result, 10)
     
-    if __name__ == '__main__':
-        unittest.main()
+if __name__ == '__main__':
+    unittest.main()
 
 ## Ex №2
 
